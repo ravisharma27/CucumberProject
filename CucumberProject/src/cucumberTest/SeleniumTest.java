@@ -14,9 +14,6 @@ public class SeleniumTest {
 		// Create new instance of Firefox driver
 		driver = new FirefoxDriver();
 		
-		
-		
-		
 		/*
 		Put a Implicit wait, this means that any search for elements on the page 
 		could take the time the implicit wait is set for before throwing exception
@@ -41,7 +38,7 @@ public class SeleniumTest {
         driver.findElement(By.id("login")).click();
  
         // Print a Log In message to the screen
-        System.out.println("Login Successfully");
+        System.out.println("Logged in Successfully");
  
         // Find the element that's ID attribute is 'account_logout' (Log Out)
         driver.findElement (By.xpath(".//*[@id='account_logout']/a")).click();
